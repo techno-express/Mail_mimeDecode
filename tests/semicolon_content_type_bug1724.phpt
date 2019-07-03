@@ -1,6 +1,7 @@
 --TEST--
 Bug #1724   Quoted Semicolons in Content-Type
 --SKIPIF--
+<?php require __DIR__ .'/../vendor/autoload.php'; ?>
 --FILE--
 <?php
 require_once('Mail/mime.php');

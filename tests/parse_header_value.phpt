@@ -1,6 +1,7 @@
 --TEST--
 Tests for _parseHeaderValue
 --SKIPIF--
+<?php require __DIR__ .'/../vendor/autoload.php'; ?>
 --FILE--
 <?php
 require_once 'Mail/mime.php';

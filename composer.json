@@ -35,10 +35,10 @@
     },
     "autoload": {
         "psr-0": {
-            "Mail": "./"
+            "Mail": "Mail/"
         },
         "psr-4": {
-            "Mime\\": "vendor/pear/mail-mime/Mail/",
+            "Mail\\": "vendor/pear/mail-mime/Mail/",
             "Pear\\": "vendor/pear/pear-core-minimal/src/"
         }
     }
