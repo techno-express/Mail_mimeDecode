@@ -3,6 +3,7 @@ Tests for _parseHeaderValue
 --SKIPIF--
 --FILE--
 <?php
+require_once 'vendor/autoload.php';
 require_once 'Mail/mime.php';
 
 $Mime = new Mail_Mime();

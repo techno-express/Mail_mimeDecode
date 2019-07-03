@@ -1,0 +1,15 @@
+# composer related
+composer.lock
+composer.phar
+vendor
+
+#test related
+run-tests.log
+tests/*.log
+tests/*.php
+tests/*.diff
+tests/*.exp
+tests/*.out
+
+#IDEs
+.idea

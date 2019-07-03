@@ -1,0 +1,45 @@
+{
+    "name": "pear/mail_mimedecode",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Mail_mimeDecode",
+        "source": "https://github.com/pear/Mail_mimeDecode"
+    },
+    "type": "library",
+    "description": "Provides a class to decode mime messages.",
+    "homepage": "http://pear.php.net/package/Mail_mimeDecode",
+    "authors": [
+        {
+            "email": "alan@roojs.com",
+            "name": "Alan Knowles",
+            "homepage": "http://www.roojs.com",
+            "role": "Lead"
+        },
+        {
+            "email": "cipri@php.net",
+            "name": "Cipriano Groenendal",
+            "role": "Lead"
+        },
+        {
+            "email": "alec@php.net",
+            "name": "George Schlossnagle",
+            "role": "Developer, inactive"
+        }
+    ],
+    "include-path": [
+        "./"
+    ],
+    "license": "BSD-3-clause",
+    "require": {
+        "pear/mail_mime": "^1.10",
+        "pear/pear-core-minimal": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mail": "./"
+        },
+        "psr-4": {
+            "Mime\\": "vendor/pear/mail-mime/Mail/",
+            "Pear\\": "vendor/pear/pear-core-minimal/src/"
+        }
+    }
+}
