@@ -4,6 +4,8 @@
 
 This is a [Packagist](https://packagist.org) repository for loading Mail_mimeDecode via [Composer](https://getcomposer.org).
 
+    composer require forked/mail_mime-decode
+
 ## PEAR Info
 
 This package is http://pear.php.net/package/Mail_mimeDecode and has been migrated from http://svn.php.net/repository/pear/packages/Mail_mimeDecode (version 1.5.5).
