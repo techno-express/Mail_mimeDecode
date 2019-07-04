@@ -1,6 +1,6 @@
 # Mail_mimeDecode v1.5.6
 
-[![Build Status](https://travis-ci.org/techno-express/Mail_mimeDecode.svg?branch=trunk)](https://travis-ci.org/techno-express/Mail_mimeDecode)
+[![Build Status](https://travis-ci.org/techno-express/Mail_mimeDecode.svg?branch=master)](https://travis-ci.org/techno-express/Mail_mimeDecode)
 
 This is a [Packagist](https://packagist.org) repository for loading Mail_mimeDecode via [Composer](https://getcomposer.org).
 
