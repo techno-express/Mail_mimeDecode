@@ -6,7 +6,7 @@ php:
 
 before_script:
   - composer self-update
+  - composer require phpunit/phpunit
 
-script:
-  - pear run-tests tests/
-  - for i in `ls tests/*.diff`; do echo $i; cat $i; done
+script: 
+  - vendor/bin/phpunit tests/

@@ -13,3 +13,4 @@ tests/*.out
 
 #IDEs
 .idea
+build

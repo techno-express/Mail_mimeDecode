@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Mail": "Mail/"
+            "Mail_mimeDecode": "Mail/"
         },
         "psr-4": {
             "Mail\\": "vendor/pear/mail-mime/Mail/",
