@@ -1,5 +1,5 @@
 {
-    "name": "forked/mail_mime_decode",
+    "name": "forked/mail_mime-decode",
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Mail_mimeDecode",
         "source": "https://github.com/pear/Mail_mimeDecode"
