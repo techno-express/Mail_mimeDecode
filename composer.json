@@ -5,7 +5,7 @@
         "source": "https://github.com/pear/Mail_mimeDecode"
     },
     "type": "library",
-    "description": "Provides a class to decode mime messages.",
+    "description": "Provides a class to decode mime messages. A updated fork of pear/mail_mime-decode.",
     "homepage": "http://pear.php.net/package/Mail_mimeDecode",
     "authors": [
         {
