@@ -34,9 +34,9 @@
         "pear/pear-core-minimal": "*"
     },
     "autoload": {
-        "psr-0": {
-            "Mail_mimeDecode": "Mail/"
-        },
+        "files": [
+            "Mail/mimeDecode.php"
+        ],
         "psr-4": {
             "Mail\\": "vendor/pear/mail-mime/Mail/",
             "Pear\\": "vendor/pear/pear-core-minimal/src/"
