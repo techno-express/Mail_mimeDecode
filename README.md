@@ -8,7 +8,7 @@ This is a [Packagist](https://packagist.org) repository for loading Mail_mimeDec
 
 ## PEAR Info
 
-This package is http://pear.php.net/package/Mail_mimeDecode and has been migrated from http://svn.php.net/repository/pear/packages/Mail_mimeDecode (version 1.5.5).
+This package is http://pear.php.net/package/Mail_mimeDecode and has been migrated from http://svn.php.net/repository/pear/packages/Mail_mimeDecode (version 1.5.6).
 
 Please report all new issues via the PEAR bug tracker.
 
