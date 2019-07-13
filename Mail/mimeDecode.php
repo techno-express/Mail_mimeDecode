@@ -336,6 +336,7 @@ class Mail_mimeDecode extends PEAR
                 case 'multipart/parallel':
                 case 'multipart/appledouble': // Appledouble mail
                 case 'multipart/report': // RFC1892
+                case 'multipart/signed': // PGP
                 case 'multipart/digest':
                 case 'multipart/alternative':
                 case 'multipart/related':
