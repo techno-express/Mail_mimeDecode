@@ -677,7 +677,7 @@ class Mail_mimeDecode extends PEAR
             $match = array();
             $info = preg_match("/^([^']+)'([^']*)'(.*)$/", $val, $match);
 
-            $match = isset($match[3]) ? $match[3] : ['', '', '', ''];
+            $match = isset($match[3]) ? $match : ['', '', '', ''];
             $clean_others[$key] = urldecode($match[3]);
             $clean_others[strtolower($key)] = $clean_others[$key];
             $clean_others[strtolower($key).'-charset'] = $match[1];
