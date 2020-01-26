@@ -5,7 +5,7 @@ Tests for _parseHeaderValue
 --FILE--
 <?php
 
-$Mime = new Mail_Mime();
+$Mime = new Mail_mime();
 $Mime->setTXTBody('Test message.');
 $contentAppend = 'testparam1="test1;semicolon";testparam2=two; testparam3="three"; '
                 .'testparam4="four\;4\;four"; testparam5=five\;5\;five; '

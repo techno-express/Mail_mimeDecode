@@ -5,7 +5,7 @@ Bug #1724   Quoted Semicolons in Content-Type
 --FILE--
 <?php
 
-$Mime = new Mail_Mime();
+$Mime = new Mail_mime();
 $Mime->setTXTBody('Test message.');
 $Mime->addAttachment('test file contents', 'text/plain; testparam="test1;semicolon"', 'test.txt', FALSE);
 

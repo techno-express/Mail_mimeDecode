@@ -5,7 +5,7 @@ Bug #17175  Content-Description support+ecoding
 --FILE--
 <?php
 
-$Mime = new Mail_Mime();
+$Mime = new Mail_mime();
 $Mime->setTXTBody('Test message.');
 $Mime->addAttachment('test file contents', "text/plain",
     'test.txt', FALSE, 'base64', NULL, 'UTF-8', NULL, NULL, NULL, NULL,
