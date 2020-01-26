@@ -4,7 +4,6 @@ Tests for _parseHeaderValue
 <?php require 'vendor/autoload.php'; ?>
 --FILE--
 <?php
-require_once 'Mail/mime.php';
 
 $Mime = new Mail_Mime();
 $Mime->setTXTBody('Test message.');

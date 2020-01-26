@@ -4,7 +4,6 @@ Bug #1724   Quoted Semicolons in Content-Type
 <?php require 'vendor/autoload.php'; ?>
 --FILE--
 <?php
-require_once('Mail/mime.php');
 
 $Mime = new Mail_Mime();
 $Mime->setTXTBody('Test message.');
@@ -19,8 +18,6 @@ foreach ($Mime->headers() AS $name => $val) {
 $hdrs .= "To: Receiver <receiver@example.com>\n";
 $hdrs .= "From: Sender <sender@example.com>\n";
 $hdrs .= "Subject: PEAR::Mail_Mime test mail\n";
-
-require_once('Mail/mimeDecode.php');
 
 $mime_message = "$hdrs\n$body";
 $Decoder = new Mail_mimeDecode($mime_message);
